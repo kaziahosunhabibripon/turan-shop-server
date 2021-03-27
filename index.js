@@ -72,6 +72,6 @@ client.connect(err => {
 
 
 app.get('/', (req, res) => {
-    res.send("Ema-john is responding!");
+    res.send("Ema-john is responding from heroku!");
 })
 app.listen(process.env.PORT || port)
